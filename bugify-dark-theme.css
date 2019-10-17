@@ -1,0 +1,291 @@
+:root {
+  --accent-color: #63599a;
+  --border-color: #8394A1;
+  --text-color: #ffffff;
+  --text-secondary-color: #8394A1;
+  /*--00dp: #121212;
+  --01dp: #1d1d1d;
+  --02dp: #212121;
+  --03dp: #242424;
+  --04dp: #272727;
+  --06dp: #2c2c2c;
+  --08dp: #2d2d2d;*/
+  
+      --00dp: #121212;
+    --01dp: #212121;
+    --02dp: #272727;
+    --03dp: #2d2d2d;
+  --04dp: #333333;
+  --05dp: #3a3a3a;
+  --06dp: #444444;
+  --08dp: #2d2d2d;
+}
+
+::selection {
+    background: #1659a6;
+}
+
+* {
+  box-shadow: none !important;
+  text-shadow: none !important;
+  color: var(--text-color);
+  outline-color: var(--accent-color);
+}
+
+body h1, body h2, body h3 {
+  color: var(--text-color);
+}
+
+body {
+  background: var(--00dp);
+  margin-bottom: 2em;
+}
+
+body div.message.message-ok {
+  background-color: #2ecc71;
+}
+
+body div.message a {
+  background-color: initial;
+  color: var(--text-color);
+}
+
+body div.message.message-error {
+  background-color: #e74c3c;
+}
+
+body div.message.message-warning {
+  background-color: #e59b57;
+}
+
+body .header-container {
+  background: var(--04dp);
+}
+
+body .md-modal .md-content {
+  background: var(--01dp);
+  border: 2px solid var(--accent-color);
+  border-radius: 4px;
+  margin-top: 2em;
+}
+
+body .box {
+  background-color: var(--02dp) !important;
+  border: 0 !important;
+}
+
+body .right-content .box.white h1 {
+  color: var(--text-color);
+}
+
+body .left-column.content, body .left-column .content {
+  border: none;
+  background-color: var(--02dp);
+}
+
+body .left-column h1.title {
+  background-color: var(--04dp);
+  font-weight: normal;
+}
+
+body .issue-list .subject {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold
+}
+
+body .issue-id {
+  background-color: transparent;
+  color: var(--text-secondary-color);
+  border: 0;
+}
+
+body .issue-id span {
+  display: none
+}
+
+body .menu a {
+  border: none;
+}
+
+body .bar-graph {
+  border: 1px solid var(--accent-color);
+  background-color: transparent;
+}
+
+body .bar-graph .bar-graph-value {
+  background-color: var(--accent-color);
+  border-radius: 0;
+}
+
+
+.left-column h1.title, .left-column h1 a.title, .login-box h1, .left-column .heading {
+  margin: -11px -10px 10px -10px;
+}
+
+.pagination-limit-options,
+.wrapper.footer {
+  display: none;
+}
+
+body textarea, body input[type=text], input[type=password], input[type=email] {
+  background-color: var(--06dp);
+  border: none;
+  border-radius: 4px;
+  color: var(--text-color);
+}
+
+body .comment-write-box {
+  font-size: 17px;
+  min-height: 10em;
+  height: auto;
+  resize: vertical !important;
+}
+
+h2.comment-write {
+  display: none;
+}
+
+.content.add-comment-holder a.add-comment-attach {
+  filter: hue-rotate(90deg);
+  width: 20px;
+  height: 20px;
+  opacity: .6;
+}
+
+body .edit-comment-holder > a {
+  filter: invert(1);
+  opacity: .6 !important;
+}
+
+.overview-description {
+  margin-top: 2em;
+}
+
+.overview-description p {
+  font-size: 1.2em;
+}
+
+body .comments-list {
+  max-width: 700px;
+}
+
+body .comment-message {
+  font-size: 16px !important;
+  background-color: var(--06dp) !important;
+  border: none !important;
+  border-radius: 4px;
+}
+
+body .comment-message .comment-arrow-inner {
+  border-right-color: var(--06dp) !important;
+}
+
+body .comment-message .comment-arrow-outer {
+  border-right-color:  var(--06dp) !important;
+}
+
+body .badge {
+  border-radius: 10px !important;
+  background: var(--accent-color) !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+body a {
+  color: var(--text-color);
+}
+
+
+body .button.green {
+  background: #2ecc71 !important;
+}
+
+body .button.gray {
+  background: #475771 !important;
+  color: #fff !important;
+}
+
+body .button.red {
+  background: #e74c3c !important;
+  color: #fff !important;
+}
+
+body .button {
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+body .button:active {
+  box-shadow: none !important;
+}
+
+body .heading {
+  background-color: var(--06dp) !important;
+}
+
+body .issue-list .priority {
+  color: #fff;
+  border: 0;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body .issue-list .priority-high {
+  background-color: #e74c3c;
+}
+
+body .issue-list .priority-normal {
+  background-color: #2ecc71;
+}
+
+body .issue-list .priority-low {
+  background-color: #a9adb4;
+}
+
+body .info-box {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 3px solid var(--accent-color);
+  color: #fff; 
+}
+
+body .label-small {
+  box-shadow: none;
+  border: 0;
+}
+
+body select, body select option {
+  color: initial;
+}
+
+body code.prettyprint {
+  padding: .1em .5em;
+  display: inline-block;
+}
+
+body blockquote {
+  border-left: 5px solid var(--accent-color); 
+}
+
+body blockquote p {
+  color: #000;
+}
+
+body .login-box.content {
+  border: none;
+  background-color: var(--04dp);
+}
+
+body .content.add-comment-holder a.add-comment-attach {
+  filter: invert(1);
+}
+
+body .wmd-button {
+  filter: invert(1);
+}
