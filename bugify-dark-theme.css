@@ -264,7 +264,8 @@ body select, body select option {
   color: initial;
 }
 
-body code.prettyprint {
+body code {
+  color: initial;
   padding: .1em .5em;
   display: inline-block;
 }
